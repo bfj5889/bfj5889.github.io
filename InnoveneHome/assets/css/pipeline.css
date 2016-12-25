@@ -1,0 +1,28 @@
+.item{
+	border-radius: 15px 50px;
+	background-color: #dbe7f9;
+	padding: % !important;
+	margin-bottom: 1.5% !important;
+}
+
+.statusHeaders{
+	text-align: center;
+}
+
+.featurette-divider{
+		margin-top: 3% !important;
+		margin-bottom: 3% !important;
+}
+
+.description{
+	text-align: center;
+}
+
+/******************
+    MEDIA QUERIES
+******************/
+@media only screen and (max-width: 990px) {
+	.statusHeaders{
+		display:none;
+	}
+}

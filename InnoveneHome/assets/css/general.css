@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+	background-color: #f7f7f7;
+	padding-bottom: 0 !important;
+}
+
+.container{
+    width: 100%;
+}
+
+.orangeHeader{
+    background-color: #FFC107;
+    color: #fff;
+    padding: 1%;
+    padding-left: 8%;
+    margin: 0;
+}
+
+h2{
+	color: #2196F3;
+	text-align: center;
+}
+
+
+.innoveneImage{
+	/* ../images/LogoNameTransparent.png */
+	background-image: url('');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 20%;
+}
+
+.headerLabel h1{
+	font-size: 60;
+	margin: 0;
+	background-color: none;
+}
+.headerLabel{
+		font-family: 'rimouski', sans-serif;
+		text-align: center;
+		color: #1E88E5;
+		line-height: 1 !important;
+		width: 40%;
+		margin-left: 30%;
+		
+}
+.subHeader{
+	font-size: 15;
+	color: #00C853;
+}
+
+footer{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/******************
+    Header Font
+******************/
+@font-face {
+    font-family:"rimouski";
+    src: url("../fonts/rimouski-sb.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+/******************
+    MEDIA QUERIES
+******************/
+@media only screen and (max-width: 400px) {
+	.innoveneImage{
+		background-image: url('../images/LogoIconTransparent.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 17%;
+	}
+	.headerLabel{
+		 color: transparent;
+	}
+	.subHeader{
+		 color: transparent;
+	}
+}
+/******************
+    CARDS
+******************/
+.card{
+    text-align:center;
+}
+
+/******************
+    EMPLOYEE NAMES * DESC
+******************/
+.emp{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: .5%;
+    font-size: 1em;
+}
+
+/******************
+    Bootstrap override
+******************/
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+
