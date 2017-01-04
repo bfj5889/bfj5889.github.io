@@ -1,6 +1,8 @@
 body{
     width: 100%;
-	background-color: #f7f7f7;
+	background-color: #ffebcc;
+	/* ORIGINAL OFF WHITE COLOR
+	background-color: #f7f7f7; */
 	padding-bottom: 0 !important;
 }
 
@@ -79,6 +81,16 @@ footer{
 		 color: transparent;
 	}
 }
+
+@media only screen and (min-width: 990px) {
+	/*****************
+	Side Images
+	*****************/
+	.about img{
+		margin-top: 30%;
+		vertical-align: middle;
+	}
+}
 /******************
     CARDS
 ******************/
@@ -105,4 +117,17 @@ footer{
     padding: 0;
 }
 
+/**************
+Team Info styling
+**************/
+ul.teamInfo{
+	list-style-type: none;
+}
 
+.teamInfo{
+	font-size: 130%;
+}
+
+.bioInfo{
+	margin: auto;
+}
